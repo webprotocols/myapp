@@ -23,6 +23,7 @@ var textView = new tabris.TextView({
 button.on("select", function() {
   textView.set("text", "Totally Rock!");
   window.plugins.toast.showShortTop("skdfsdjfkfj");
+  navigator.vibrate(2000);
   
 });
 
